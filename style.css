@@ -1,0 +1,213 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#papergrid {
+    margin-left: 5em;
+}
+
+#icons {
+    font-size: 22px;
+    padding-top: 15px;
+    display: flex;
+    cursor: pointer;
+}
+
+header {
+    height: 6em;
+}
+
+#home{
+    text-decoration: underline;
+}
+
+
+#main-head{
+    width: 100%;
+    position: fixed;
+}
+
+
+
+
+                      /* Hover Effects*/
+
+ul li .nav-link:hover{
+    text-decoration: underline;
+}
+
+#profile:hover{
+    transform: scale(1.2);
+}
+
+#bag:hover{
+    transform: scale(1.2);
+}
+
+#insta:hover{
+    transform: scale(1.2);
+}
+
+.para:hover{
+    text-decoration: underline;
+}
+
+#abt-btn:hover{
+    transform: scale(1.05);
+}
+
+
+                           /* Navbar */
+
+
+
+@media(max-width:992px) {
+    #papergrid {
+
+        position: absolute;
+        left: 25%;
+        z-index: 1;
+
+    }
+
+    #btn {
+        position: absolute;
+        left: -43%;
+        margin-top: 30px;
+        
+    }
+}
+
+
+
+@media(max-width:556px) {
+    #papergrid {
+
+        position: absolute;
+        top: 40px;
+        z-index: 1;
+
+    }
+
+    #btn {
+        position: absolute;
+        left: -43%;
+        margin-top: 30px;
+        bottom: -25px;
+        
+    }
+}
+
+
+
+
+@media (max-width:747px) {
+    #profile{
+        display: none;
+    }
+}
+
+
+
+
+
+                              /* Main body */
+
+
+
+@media (min-width: 1200px){
+    .frow{
+        padding-left: 150px;
+        padding-right: 150px;      
+    }
+}
+
+.frow{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+    
+
+
+@media(max-width:992){
+    .notebook{
+        position: absolute;
+    }
+}
+
+
+
+
+
+
+h3{
+    margin-left: 50px;
+    margin-top: 75px;
+}
+p{
+    margin-left: 50px;
+}
+
+#abt-btn{
+    width: 9em;
+    height: 3em;
+    margin-top: 40px;
+    margin-left: 50px;
+    background-color: black;
+    color: white;
+    border-style: none;
+}
+#person{
+    margin-bottom: 5em;
+}
+
+#main-body{
+    padding-top: 85px;
+}
+
+                               /* Footer */
+
+
+
+.footer{
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    border: unset;
+    border-bottom: 1px solid;
+}
+
+.para{
+    line-height: 2em;
+    font-size: 18px;
+    cursor: pointer;
+}
+.fa-brands.fa-instagram{
+    line-height: 4em;
+    font-size: 25px;
+    margin-left: 50px;
+}
+
+
+                             /* Balance Footer */
+
+
+
+.fbalance{
+    width: 100%;
+    height: 130px;
+    background-color: black;
+}    
+
+.last-ul{
+    display: flex;
+    gap: 1em;
+    list-style: none;
+    margin-left: 7em;
+
+}
